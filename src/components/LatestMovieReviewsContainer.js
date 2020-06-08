@@ -16,7 +16,9 @@ class LatestMovieReviewsContainer extends React.Component {
     }
   }
   
-  
+  componentDidMount() {
+    fetch(URL)
+  }
 }
 
 export default LatestMovieReviewsContainer
