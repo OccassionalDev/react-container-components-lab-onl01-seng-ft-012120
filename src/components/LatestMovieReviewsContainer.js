@@ -24,10 +24,10 @@ class LatestMovieReviewsContainer extends React.Component {
   
   render() {
     return (
-      <div>
+      <div class="latest-movie-reviews">
       
       
-      
+      </div>
       )
   }
 }
