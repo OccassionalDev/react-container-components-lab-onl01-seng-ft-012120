@@ -12,9 +12,11 @@ class LatestMovieReviewsContainer extends React.Component {
   constructor() {
     super()
     this.state = {
-      movieReviews
+      movieReviews: []
     }
   }
+  
+  
 }
 
 export default LatestMovieReviewsContainer
