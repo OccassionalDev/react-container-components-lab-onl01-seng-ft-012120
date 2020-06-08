@@ -18,6 +18,8 @@ class LatestMovieReviewsContainer extends React.Component {
   
   componentDidMount() {
     fetch(URL)
+      .then(res => res.json())
+      .then(data => )
   }
 }
 
