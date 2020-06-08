@@ -21,6 +21,15 @@ class LatestMovieReviewsContainer extends React.Component {
       .then(res => res.json())
       .then(data => this.setState({ reviews: data.reviews }))
   }
+  
+  render() {
+    return (
+      <div>
+      
+      
+      
+      )
+  }
 }
 
 export default LatestMovieReviewsContainer
